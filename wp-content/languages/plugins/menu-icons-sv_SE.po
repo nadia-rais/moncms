@@ -1,0 +1,208 @@
+# Translation of Plugins - Menu Icons by ThemeIsle - Development (trunk) in Swedish
+# This file is distributed under the same license as the Plugins - Menu Icons by ThemeIsle - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-10-25 16:12:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Menu Icons by ThemeIsle - Development (trunk)\n"
+
+#: includes/settings.php:751
+msgid "the customizer"
+msgstr "anpassaren"
+
+#: includes/settings.php:746
+msgid "Please note that the actual look of the icons on the front-end will also be affected by the style of your active theme. You can add your own CSS using %2$s or a plugin such as %3$s if you need to override it."
+msgstr "Tänk på att hur ikonerna faktiskt kommer att se ut för besökarna även påverkas av stilarna i ditt aktiva tema. Om du behöver åsidosätta detta kan du lägga till egen CSS-kod med hjälp av %2$s eller något tillägg, såsom %3$s."
+
+#: menu-icons.php:152
+msgid "Looks like Menu Icons was installed via Composer. Please activate Icon Picker first."
+msgstr "Ser ut som menyikoner installerades via Composer. Aktivera ikonväljaren först."
+
+#: includes/settings.php:742
+msgid "Change"
+msgstr "Ändra"
+
+#: includes/settings.php:585
+msgid "SVG Width"
+msgstr "SVG-bredd"
+
+#: includes/picker.php:63
+msgid "Type"
+msgstr "﻿Typ"
+
+#: menu-icons.php:123
+msgid "Menu Icons: No registered icon types found."
+msgstr "Menyikoner: Inga registrerade ikontyper hittades."
+
+#: includes/settings.php:596
+msgid "Image Size"
+msgstr "Bildstorlek"
+
+#: includes/library/functions.php:82
+msgid "Full Size"
+msgstr "Full storlek"
+
+#: includes/library/functions.php:81
+msgid "Large"
+msgstr "Stor"
+
+#: includes/library/functions.php:80
+msgid "Medium"
+msgstr "Medium"
+
+#: includes/library/functions.php:79
+msgid "Thumbnail"
+msgstr "Miniatyr"
+
+#: includes/settings.php:567
+msgid "Sub"
+msgstr "Nedsänkt"
+
+#: includes/settings.php:563
+msgid "Bottom"
+msgstr "Botten"
+
+#: includes/settings.php:559
+msgid "Text Bottom"
+msgstr "Text botten"
+
+#: includes/settings.php:555
+msgid "Baseline"
+msgstr "Baslinje"
+
+#: includes/settings.php:551
+msgid "Middle"
+msgstr "Mitten"
+
+#: includes/settings.php:547
+msgid "Text Top"
+msgstr "Text toppen"
+
+#: includes/settings.php:543
+msgid "Top"
+msgstr "Toppen"
+
+#: includes/settings.php:539
+msgid "Super"
+msgstr "Upphöjt"
+
+#: includes/settings.php:534
+msgid "Vertical Align"
+msgstr "Vertikal justering"
+
+#: includes/settings.php:574
+msgid "Font Size"
+msgstr "Textstorlek"
+
+#: includes/settings.php:425
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: includes/settings.php:416
+msgid "Reset"
+msgstr "Återställ"
+
+#: includes/settings.php:415
+msgid "Discard all changes and reset to default state"
+msgstr "Kasta alla ändringar och återställ till utgångsläget"
+
+#: includes/settings.php:373 includes/settings.php:396
+msgid "Extensions"
+msgstr "Utökningar"
+
+#: includes/settings.php:476
+msgid "\"%s\" menu settings"
+msgstr "”%s” menyinställningar"
+
+#: includes/settings.php:474
+msgid "Current Menu"
+msgstr "Nuvarande meny"
+
+#: includes/settings.php:458
+msgid "Icon Types"
+msgstr "Ikontyper"
+
+#: includes/settings.php:453
+msgid "Global settings"
+msgstr "Globala inställningar"
+
+#: includes/settings.php:452
+msgid "Global"
+msgstr "Global"
+
+#: includes/settings.php:527
+msgid "After"
+msgstr "Efter"
+
+#: includes/settings.php:523
+msgid "Before"
+msgstr "Före"
+
+#: includes/settings.php:518
+msgid "Position"
+msgstr "Position"
+
+#: includes/settings.php:511
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/settings.php:507
+msgid "No"
+msgstr "Nej"
+
+#: includes/settings.php:502
+msgid "Hide Label"
+msgstr "Dölj etikett"
+
+#: includes/settings.php:301
+msgid "Menu Icons Settings"
+msgstr "Inställningar för menyikoner"
+
+#: includes/settings.php:336
+msgid "<strong>Menu Icons Settings</strong> have been successfully reset."
+msgstr "<strong>Inställningarna för menyikoner</strong> har återställts."
+
+#: includes/settings.php:335
+msgid "<strong>Menu Icons Settings</strong> have been successfully updated."
+msgstr "<strong>Inställningarna för menyikoner</strong> har uppdaterats."
+
+#: includes/library/form-fields.php:152
+msgid "%1$s: Type %2$s is not supported, reverting to text."
+msgstr "%1$s: Typen %2$s stöds inte, återgår till text."
+
+#: includes/picker.php:68 includes/picker.php:166
+msgid "Icon"
+msgstr "Ikon"
+
+#: includes/picker.php:118 includes/settings.php:741
+msgid "Remove"
+msgstr "Ta bort"
+
+#: includes/picker.php:116
+msgid "Icon:"
+msgstr "Ikon:"
+
+#: includes/settings.php:744
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: includes/settings.php:743
+msgid "All"
+msgstr "Alla"
+
+#: includes/picker.php:117 includes/settings.php:740
+msgid "Select"
+msgstr "Select"
+
+#: includes/settings.php:739
+msgid "Select Icon"
+msgstr "Välj ikon"
+
+#: includes/library/form-fields.php:528
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Välj &mdash;"

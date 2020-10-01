@@ -1,0 +1,2 @@
+2020-10-01T08:34:04+00:00 CRITICAL syntax error, unexpected 'woocommerce' (T_STRING), expecting ',' or ')' in /var/www/vhosts/sabri-said.students-laplateforme.io/httpdocs/mon_cms/wp-content/themes/divi-child/woocommerce/cart/shipping-calculator.php on line 24
+

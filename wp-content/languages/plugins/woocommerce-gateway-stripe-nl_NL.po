@@ -1,0 +1,1419 @@
+# Translation of Plugins - WooCommerce Stripe Payment Gateway - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - WooCommerce Stripe Payment Gateway - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-13 08:30:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - WooCommerce Stripe Payment Gateway - Stable (latest release)\n"
+
+#: woocommerce-gateway-stripe.php:233
+msgid "Open a support request at WooCommerce.com"
+msgstr "Open een ondersteuningsverzoek op WooCommerce.com"
+
+#: woocommerce-gateway-stripe.php:232
+msgid "View Documentation"
+msgstr "Documentatie bekijken"
+
+#. translators: $1. Minimum WooCommerce version. $2. Current WooCommerce
+#. version.
+#: woocommerce-gateway-stripe.php:54
+msgid "Stripe requires WooCommerce %1$s or greater to be installed and active. WooCommerce %2$s is no longer supported."
+msgstr "Stripe vereist dat WooCommerce %1$s of hoger is geïnstalleerd en actief is. WooCommerce %2$s wordt niet langer ondersteund."
+
+#: includes/admin/stripe-settings.php:170
+msgid "Text and logo"
+msgstr "Tekst en logo"
+
+#: includes/admin/stripe-settings.php:169
+msgid "Logo only"
+msgstr "Alleen logo"
+
+#: includes/admin/stripe-settings.php:165
+msgid "Select the branded button label format."
+msgstr "Selecteer het labelformat van de merkknop."
+
+#: includes/admin/stripe-settings.php:163
+msgid "Branded Button Label Format"
+msgstr "Labelformat voor merkknop"
+
+#: includes/admin/stripe-settings.php:162
+msgid "Payment Request Branded Button Label Format"
+msgstr "Betalingsverzoek merklabel labelformat"
+
+#: includes/admin/stripe-settings.php:158
+msgid "Buy now"
+msgstr "Koop nu"
+
+#: includes/admin/stripe-settings.php:157
+msgid "Enter the custom text you would like the button to have."
+msgstr "Voer de aangepaste tekst in die je wil dat de knop heeft."
+
+#: includes/admin/stripe-settings.php:155
+msgid "Button Label"
+msgstr "Knoplabel"
+
+#: includes/admin/stripe-settings.php:154
+msgid "Payment Request Button Label"
+msgstr "Label knop voor betalingsverzoek"
+
+#: includes/admin/stripe-settings.php:129
+msgid "Custom"
+msgstr "Aangepast"
+
+#: includes/admin/stripe-settings.php:128
+msgid "Branded"
+msgstr "Gemerkt"
+
+#: includes/admin/stripe-settings.php:75
+msgid "Get your API keys from your stripe account. Invalid values will be rejected. Only values starting with \"sk_live_\" or \"rk_live_\" will be saved."
+msgstr "Haal je API-sleutels uit je stripe-account. Ongeldige waarden worden afgewezen. Alleen waarden die beginnen met \"sk_live_\" of \"rk_live_\" worden opgeslagen."
+
+#: includes/admin/stripe-settings.php:68
+msgid "Get your API keys from your stripe account. Invalid values will be rejected. Only values starting with \"pk_live_\" will be saved."
+msgstr "Haal je API-sleutels uit je stripe-account. Ongeldige waarden worden afgewezen. Alleen waarden die beginnen met \"pk_live_\" worden opgeslagen."
+
+#: includes/admin/stripe-settings.php:54
+msgid "Get your API keys from your stripe account. Invalid values will be rejected. Only values starting with \"sk_test_\" or \"rk_test_\" will be saved."
+msgstr "Haal je API-sleutels uit je stripe-account. Ongeldige waarden worden afgewezen. Alleen waarden die beginnen met \"sk_test_\" of \"rk_test_\" worden opgeslagen."
+
+#: includes/admin/stripe-settings.php:47
+msgid "Get your API keys from your stripe account. Invalid values will be rejected. Only values starting with \"pk_test_\" will be saved."
+msgstr "Haal je API-sleutels uit je stripe-account. Ongeldige waarden worden afgewezen. Alleen waarden die beginnen met \"pk_test_\" worden opgeslagen."
+
+#: includes/class-wc-gateway-stripe.php:1200
+msgid "The \"Test Secret Key\" should start with \"sk_test\" or \"rk_test\", enter the correct key."
+msgstr "De \"Test Secret Key\" moet beginnen met \"sk_test\" of \"rk_test\", voer de juiste sleutel in."
+
+#: includes/class-wc-gateway-stripe.php:1192
+msgid "The \"Test Publishable Key\" should start with \"pk_test\", enter the correct key."
+msgstr "De \"Test Publishable Key\" moet beginnen met \"pk_test\", voer de juiste sleutel in."
+
+#: includes/class-wc-gateway-stripe.php:1184
+msgid "The \"Live Secret Key\" should start with \"sk_live\" or \"rk_live\", enter the correct key."
+msgstr "De \"Live Secret Key\" moet beginnen met \"sk_live\" of \"rk_live\", voer de juiste sleutel in."
+
+#: includes/class-wc-gateway-stripe.php:1176
+msgid "The \"Live Publishable Key\" should start with \"pk_live\", enter the correct key."
+msgstr "De \"Live Publishable Key\" moet beginnen met \"pk_live\", voer de juiste sleutel in."
+
+#. translators: 1) int version 2) int version
+#: includes/admin/class-wc-stripe-admin-notices.php:153
+msgid "WooCommerce Stripe - This is the last version of the plugin compatible with WooCommerce %1$s. All furture versions of the plugin will require WooCommerce %2$s or greater."
+msgstr "WooCommerce Stripe - Dit is de laatste versie van de plugin die compatibel is met WooCommerce %1$s. Voor alle andere versies van de plugin is WooCommerce %2$s of hoger vereist."
+
+#. translators: %s is a the URL for the link.
+#: includes/admin/class-wc-stripe-admin-notices.php:207
+msgid "The public and/or secret keys for the Stripe gateway have been changed. This might cause errors for existing customers and saved payment methods. <a href=\"%s\" target=\"_blank\">Click here to learn more</a>."
+msgstr "De openbare en/of geheime sleutels voor de Stripe-gateway zijn gewijzigd. Dit kan fouten veroorzaken voor bestaande klanten en opgeslagen betalingsmethoden. <a href=\"%s\" target=\"_blank\">Klik hier voor meer informatie</a>."
+
+#: includes/compat/class-wc-stripe-subs-compat.php:698
+msgid "Payment authorization for the renewal order was unsuccessful, please try again."
+msgstr "Betalingsautorisatie voor de verlengingsbestelling is mislukt. Probeer het opnieuw."
+
+#: includes/compat/class-wc-stripe-subs-compat.php:685
+msgid "Your early renewal order was successful."
+msgstr "Je order voor vroege verlenging is geslaagd."
+
+#: includes/class-wc-stripe-customer.php:184
+msgid "Attempting to update a Stripe customer without a customer ID."
+msgstr "Ik probeer een Stripe-klant bij te werken zonder een klant-ID."
+
+#. translators: %1$s First name, %2$s Second name.
+#: includes/class-wc-stripe-customer.php:132
+msgid "Name: %1$s %2$s, Guest"
+msgstr "Naam: %1$s %2$s, gast"
+
+#. translators: %1$s First name, %2$s Second name, %3$s Username.
+#: includes/class-wc-stripe-customer.php:121
+msgid "Name: %1$s %2$s, Username: %s"
+msgstr "Naam: %1$s %2$s, gebruikersnaam: %s"
+
+#: includes/compat/class-wc-stripe-email-failed-preorder-authentication.php:84
+#: includes/compat/class-wc-stripe-email-failed-preorder-authentication.php:93
+msgid "Payment authorization needed for pre-order {order_number}"
+msgstr "Betalingsautorisatie nodig voor pre-order {order_number}"
+
+#: includes/compat/class-wc-stripe-email-failed-preorder-authentication.php:27
+msgid "This is an order notification sent to the customer once a pre-order is complete, but additional payment steps are required."
+msgstr "Dit is een ordermelding die naar de klant wordt gestuurd zodra een reservering is voltooid, maar er zijn aanvullende betalingsstappen vereist."
+
+#: includes/compat/class-wc-stripe-email-failed-preorder-authentication.php:26
+msgid "Pre-order Payment Action Needed"
+msgstr "Betaling vooraf reserveren vereist"
+
+#: includes/compat/class-wc-stripe-subs-compat.php:341
+msgid "This transaction requires authentication."
+msgstr "Deze transactie vereist authenticatie."
+
+#: includes/compat/class-wc-stripe-email-failed-authentication.php:86
+msgid "Enable this email notification"
+msgstr "Deze e-mailmelding inschakelen"
+
+#: includes/compat/class-wc-stripe-email-failed-authentication.php:84
+msgctxt "an email notification"
+msgid "Enable/Disable"
+msgstr "Inschakelen/uitschakelen"
+
+#: includes/compat/class-wc-stripe-email-failed-renewal-authentication.php:76
+msgid "Payment authorization needed for renewal of order {order_number}"
+msgstr "Betalingsautorisatie nodig voor verlenging van order {order_number}"
+
+#: includes/compat/class-wc-stripe-email-failed-renewal-authentication.php:67
+msgid "Payment authorization needed for renewal of {site_title} order {order_number}"
+msgstr "Betalingsautorisatie nodig voor verlenging van {site_title} order {order_number}"
+
+#: includes/compat/class-wc-stripe-email-failed-renewal-authentication.php:20
+msgid "Sent to a customer when a renewal fails because the transaction requires an SCA verification. The email contains renewal order information and payment links."
+msgstr "Verzonden naar een klant wanneer een verlenging mislukt omdat de transactie een SCA-verificatie vereist. De e-mail bevat informatie over verlengingsbestellingen en betalingslinks."
+
+#: includes/compat/class-wc-stripe-email-failed-renewal-authentication.php:19
+msgid "Failed Subscription Renewal SCA Authentication"
+msgstr "SCA-authenticatie voor abonnementsverlenging mislukt"
+
+#: includes/compat/class-wc-stripe-pre-orders-compat.php:114
+#: includes/compat/class-wc-stripe-subs-compat.php:349
+#: includes/compat/class-wc-stripe-subs-compat.php:652
+msgid "Stripe charge awaiting authentication by user: %s."
+msgstr "Stripe reservering in afwachting van authenticatie door gebruiker: %s."
+
+#: includes/compat/class-wc-stripe-email-failed-authentication-retry.php:33
+msgid "[{site_title}] Automatic payment failed for {order_number}. Customer asked to authenticate payment and will be notified again {retry_time}"
+msgstr "[{site_title}] Automatische betaling mislukt voor {order_number}. Klant heeft gevraagd om betaling te authentificeren en krijgt opnieuw een melding {retry_time}"
+
+#: includes/compat/class-wc-stripe-email-failed-authentication-retry.php:32
+msgid "Automatic renewal payment failed due to authentication required"
+msgstr "Automatische verlengingsbetaling mislukt vanwege vereiste authenticatie"
+
+#: includes/compat/class-wc-stripe-email-failed-authentication-retry.php:30
+msgid "Payment authentication requested emails are sent to chosen recipient(s) when an attempt to automatically process a subscription renewal payment fails because the transaction requires an SCA verification, the customer is requested to authenticate the payment, and a retry rule has been applied to notify the customer again within a certain time period."
+msgstr "E-mails met betalingsauthenticatie worden naar de geselecteerde ontvanger(s) gestuurd wanneer een poging om de betaling van een abonnementsverlenging automatisch te verwerken mislukt omdat de transactie een SCA-verificatie vereist, de klant wordt gevraagd de betaling te authentificeren en er is een nieuwe regel toegepast om de klant opnieuw binnen een bepaalde periode te berichten."
+
+#: includes/compat/class-wc-stripe-email-failed-authentication-retry.php:29
+msgid "Payment Authentication Requested Email"
+msgstr "Betalingsverificatie vereist e-mailadres"
+
+#: includes/class-wc-gateway-stripe.php:895
+msgid "Payment Intent not found for order #"
+msgstr "Betalingsintentie niet gevonden voor ordernummer #"
+
+#: includes/admin/class-wc-stripe-admin-notices.php:202
+msgid "Stripe is now ready for Strong Customer Authentication (SCA) and 3D Secure 2! <a href=\"%1$s\" target=\"_blank\">Read about SCA</a>"
+msgstr "Stripe is nu klaar voor Strong Customer Authentication (SCA) en 3D Secure 2! <a href=\"%1$s\" target=\"_blank\">Lees meer over SCA</a>"
+
+#: templates/emails/plain/failed-renewal-authentication-requested.php:26
+#: templates/emails/failed-renewal-authentication-requested.php:35
+msgid "The renewal order is as follows:"
+msgstr "De verlengingsopdracht is als volgt:"
+
+#. translators: %1$s: an order number, %2$s: the customer's full name, %3$s:
+#. lowercase human time diff in the form returned by wcs_get_human_time_diff(),
+#. e.g. 'in 12 hours'.
+#: templates/emails/plain/failed-renewal-authentication-requested.php:17
+#: templates/emails/failed-renewal-authentication-requested.php:23
+msgctxt "In admin renewal failed email"
+msgid "The automatic recurring payment for order %1$s from %2$s has failed. The customer was sent an email requesting authentication of payment. If the customer does not authenticate the payment, they will be requested by email again %3$s."
+msgstr "De automatische terugkerende betaling voor bestelling %1$s van %2$s is mislukt. De klant heeft een e-mail ontvangen waarin om autorisering van de betaling werd gevraagd. Als de klant de betaling niet autoriseert, wordt hij opnieuw per e-mail %3$s erom gevraagd."
+
+#. translators: %s is a link to the payment re-authentication URL.
+#: templates/emails/plain/failed-preorder-authentication.php:10
+msgctxt "woocommerce-gateway-stripe"
+msgid "Your pre-order is now available, but payment cannot be completed automatically. Please complete the payment now: %s"
+msgstr "Je pre-order is nu beschikbaar, maar betaling kan niet automatisch worden afgerond. Voltooi de betaling nu: %s"
+
+#. translators: %1$s: name of the blog, %2$s: link to payment re-authentication
+#. URL, note: no full stop due to url at the end
+#: templates/emails/failed-renewal-authentication.php:12
+msgid "Authorize the payment &raquo;"
+msgstr "Autoriseer de betaling &raquo;"
+
+#. translators: %1$s: name of the blog, %2$s: link to checkout payment url,
+#. note: no full stop due to url at the end
+#. translators: %1$s: name of the blog, %2$s: link to payment re-authentication
+#. URL, note: no full stop due to url at the end
+#: templates/emails/plain/failed-renewal-authentication.php:9
+#: templates/emails/failed-renewal-authentication.php:12
+msgctxt "In failed renewal authentication email"
+msgid "The automatic payment to renew your subscription with %1$s has failed. To reactivate the subscription, please login and authorize the renewal from your account page: %2$s"
+msgstr "De automatische betaling om je abonnement met %1$s te verlengen, is mislukt. Om het abonnement opnieuw te activeren, logt je in en autoriseert je de verlenging vanaf je accountpagina: %2$s"
+
+#: templates/emails/failed-preorder-authentication.php:55
+msgid "Thanks for shopping with us."
+msgstr "Bedankt voor het winkelen bij ons."
+
+#. translators: %s is a link to the payment re-authentication URL.
+#: templates/emails/failed-preorder-authentication.php:19
+msgid "Authorize the payment now &raquo;"
+msgstr "Autoriseer de betaling nu &raquo;"
+
+#. translators: %s is a link to the payment re-authentication URL.
+#: templates/emails/failed-preorder-authentication.php:18
+msgctxt "In failed SCA authentication for a pre-order."
+msgid "Your pre-order is now available, but payment cannot be completed automatically. %s"
+msgstr "Je pre-order is nu beschikbaar, maar betaling kan niet automatisch worden afgerond. %s"
+
+#: includes/class-wc-stripe-helper.php:214
+msgid "Invalid email address, please correct and try again."
+msgstr "Ongeldig e-mailadres, corrigeer en probeer het opnieuw."
+
+#: includes/admin/stripe-settings.php:80
+msgid "Webhook Secret"
+msgstr "Webhook wachtwoord"
+
+#: includes/admin/stripe-settings.php:61 includes/admin/stripe-settings.php:82
+msgid "Get your webhook signing secret from the webhooks section in your stripe account."
+msgstr "Haal je webhook-ondertekening wachtwoord uit de webhooks-sectie in je stripe-account."
+
+#: includes/admin/stripe-settings.php:59
+msgid "Test Webhook Secret"
+msgstr "Webhook wachtwoord testen"
+
+#. translators: 1) A URL that explains Stripe Radar.
+#: includes/admin/class-wc-stripe-admin-notices.php:125
+msgid "WooCommerce Stripe - We see that you had the \"Require 3D secure when applicable\" setting turned on. This setting is not available here anymore, because it is now replaced by Stripe Radar. You can learn more about it <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "Je order is al aangemaakt, het enige dat nog moet gebeuren is dat je de betaling autoriseert bij je bank.WooCommerce Stripe - We zien dat je de instelling '3D-beveiliging vereist indien van toepassing' had ingeschakeld. Deze instelling is hier niet meer beschikbaar, omdat deze nu is vervangen door Stripe Radar. Je kan er <a href=\"%s\" target=\"_blank\">hier</a> meer over lezen."
+
+#. translators: Error message text
+#: includes/class-wc-stripe-intent-controller.php:91
+msgid "Payment verification error: %s"
+msgstr "Betalingsverificatiefout: %s"
+
+#: includes/class-wc-stripe-intent-controller.php:71
+msgid "Missing order ID for payment confirmation"
+msgstr "Ontbrekende bestel ID voor betalingsbevestiging"
+
+#: includes/class-wc-stripe-intent-controller.php:58
+msgid "CSRF verification failed."
+msgstr "CSRF verificatie mislukt."
+
+#: includes/class-wc-gateway-stripe.php:1119
+msgid "Stripe SCA authentication failed."
+msgstr "Stripe SCA authenticatie mislukt."
+
+#. translators: 1) The error message that was received from Stripe.
+#: includes/class-wc-gateway-stripe.php:1118
+#: includes/class-wc-stripe-webhook-handler.php:674
+#: includes/class-wc-stripe-webhook-handler.php:713
+msgid "Stripe SCA authentication failed. Reason: %s"
+msgstr "Stripe SCA authenticatie mislukt. Reden: %s"
+
+#: includes/class-wc-gateway-stripe.php:877
+msgid ""
+"Almost there!\n"
+"\n"
+"Your order has already been created, the only thing that still needs to be done is for you to authorize the payment with your bank."
+msgstr ""
+"We zijn er bijna!\n"
+"\n"
+"Je order is al aangemaakt, het enige dat nog moet gebeuren is dat je de betaling autoriseert bij je bank."
+
+#: includes/class-wc-gateway-stripe.php:441
+msgid "We couldn't initiate the payment. Please try again."
+msgstr "We konden de betaling niet uitvoeren. Probeer het alsjeblieft opnieuw."
+
+#: includes/admin/stripe-settings.php:96
+msgid "Statement descriptors are limited to 22 characters, cannot use the special characters >, <, \", \\, ', *, and must not consist solely of numbers. This will appear on your customer's statement in capital letters."
+msgstr "Statement beschrijvingen zijn beperkt tot 22 tekens, mogen de speciale tekens >, <, \", \\, ', *, niet gebruiken en mogen niet uitsluitend uit cijfers bestaan. Dit verschijnt in hoofdletters op het afschrift van je klant."
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:917
+msgid "Product with the ID (%d) cannot be found."
+msgstr "Product met de ID (%d) kan niet worden gevonden."
+
+#. translators: 1) int version 2) int version
+#: includes/admin/class-wc-stripe-admin-notices.php:132
+msgid "WooCommerce Stripe - We recently made changes to Stripe that may impact the appearance of your checkout. If your checkout has changed unexpectedly, please follow these <a href=\"https://docs.woocommerce.com/document/stripe/#styling\" target=\"_blank\">instructions</a> to fix."
+msgstr "WooCommerce Stripe - We hebben onlangs wijzigingen aangebracht in Stripe die van invloed kunnen zijn op het uiterlijk van je kassa. Als je betaling onverwachts is gewijzigd, volgt je deze <a href=\"https://docs.woocommerce.com/document/stripe/#styling\" target=\"_blank\">instructies</a> om dit op te lossen."
+
+#: includes/class-wc-gateway-stripe.php:438
+#: includes/class-wc-gateway-stripe.php:482
+msgid "Sorry, we're not accepting prepaid cards at this time. Your credit card has not been charged. Please try with alternative payment method."
+msgstr "Excuses, we accepteren geen prepaid kaarten op dit moment. Er is niets afgeschreven van je creditcard. Probeer het met een andere betaalmethode."
+
+#: includes/compat/class-wc-stripe-subs-compat.php:92
+#: includes/compat/class-wc-stripe-sepa-subs-compat.php:83
+msgid "Update the Payment Method used for all of my active subscriptions."
+msgstr "Werk de betaalmethode bij die wordt gebruikt voor al mijn actieve abonnementen."
+
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:914
+msgid "There was a problem adding the payment method."
+msgstr "Er is een probleem opgetreden bij het toevoegen van de betaalmethode."
+
+#. translators: 1: product name 2: quantity in stock
+#: includes/payment-methods/class-wc-stripe-payment-request.php:938
+msgid "You cannot add that amount of \"%1$s\"; to the cart because there is not enough stock (%2$s remaining)."
+msgstr "Je kan dat aantal \"%1$s\" niet toevoegen; aan het winkelwagentje, omdat er onvoldoende voorraad is (%2$s resterend)."
+
+#: includes/payment-methods/class-wc-gateway-stripe-sepa.php:228
+msgid "IBAN."
+msgstr "IBAN."
+
+#: includes/class-wc-gateway-stripe.php:452
+msgid "Billing First Name and Last Name are required."
+msgstr "Voornaam en achternaam voor facturering zijn vereist."
+
+#. translators: %d Order ID
+#: includes/admin/class-wc-stripe-privacy.php:350
+msgid "Order ID %d contains an active Subscription. Personal data retained. (Stripe)"
+msgstr "Order-ID %d bevat een actief abonnement. Persoonlijke gegevens bewaard. (Stripe)"
+
+#. translators: %d Order ID
+#: includes/admin/class-wc-stripe-privacy.php:345
+#: includes/admin/class-wc-stripe-privacy.php:382
+msgid "Order ID %d is less than set retention days. Personal data retained. (Stripe)"
+msgstr "Order-ID %d is minder dan de vastgestelde retentiedagen. Persoonlijke gegevens bewaard. (Stripe)"
+
+#: includes/admin/class-wc-stripe-privacy.php:38
+msgid "Retains any Stripe data such as Stripe customer ID, source ID."
+msgstr "Bewaart alle Stripe-gegevens zoals Stripe-klant-ID, bron-ID."
+
+#: includes/admin/class-wc-stripe-privacy.php:37
+msgid "Retain Stripe Data"
+msgstr "Stripe-gegevens behouden"
+
+#. translators: 1) link
+#: includes/admin/class-wc-stripe-admin-notices.php:197
+msgid "Stripe is enabled, but a SSL certificate is not detected. Your checkout may not be secure! Please ensure your server has a valid <a href=\"%1$s\" target=\"_blank\">SSL certificate</a>"
+msgstr "Stripe is ingeschakeld, maar er wordt geen SSL-certificaat gedetecteerd. Je kassa is mogelijk niet veilig! Zorg ervoor dat je server een geldig <a href=\"%1$s\" target=\"_blank\">SSL-certificaat</a> heeft"
+
+#: includes/admin/class-wc-stripe-privacy.php:393
+msgid "Stripe personal data erased."
+msgstr "Stripe persoonlijke gegevens gewist."
+
+#: includes/admin/class-wc-stripe-privacy.php:365
+msgid "Stripe Subscription Data Erased."
+msgstr "Stripe-abonnementsgegevens gewist."
+
+#: includes/admin/class-wc-stripe-privacy.php:269
+msgid "Stripe User Data Erased."
+msgstr "Stripe-gebruikersgegevens gewist."
+
+#: includes/admin/class-wc-stripe-privacy.php:223
+msgid "Customer Data"
+msgstr "Klantgegevens"
+
+#: includes/admin/class-wc-stripe-privacy.php:183
+msgid "Subscriptions"
+msgstr "Abonnementen"
+
+#: includes/admin/class-wc-stripe-privacy.php:126
+#: includes/admin/class-wc-stripe-privacy.php:191
+#: includes/admin/class-wc-stripe-privacy.php:231
+msgid "Stripe customer id"
+msgstr "Stripe klant-ID"
+
+#: includes/admin/class-wc-stripe-privacy.php:122
+#: includes/admin/class-wc-stripe-privacy.php:187
+#: includes/admin/class-wc-stripe-privacy.php:227
+msgid "Stripe payment id"
+msgstr "Stripe-betalings-ID"
+
+#: includes/admin/class-wc-stripe-privacy.php:118
+msgid "Orders"
+msgstr "Orders"
+
+#. translators: %s URL to docs
+#: includes/admin/class-wc-stripe-privacy.php:95
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. <a href=\"%s\" target=\"_blank\">Learn more about how this works, including what you may want to include in your privacy policy.</a>"
+msgstr "Door deze extensie te gebruiken, sla je mogelijk persoonlijke gegevens op of deel je gegevens met een externe service. <a href=\"%s\" target=\"_blank\">Meer informatie over hoe dit werkt, inclusief wat je mogelijk in je privacybeleid wil opnemen.</a>"
+
+#: includes/admin/class-wc-stripe-privacy.php:23
+msgid "WooCommerce Stripe Data"
+msgstr "WooCommerce Stripe Gegevens"
+
+#: includes/admin/class-wc-stripe-privacy.php:20
+#: includes/admin/class-wc-stripe-privacy.php:22
+msgid "WooCommerce Stripe Customer Data"
+msgstr "Klantgegevens van WooCommerce Stripe"
+
+#: includes/admin/class-wc-stripe-privacy.php:17
+msgid "WooCommerce Stripe Subscriptions Data"
+msgstr "Gegevens van WooCommerce Stripe-abonnementen"
+
+#: includes/admin/class-wc-stripe-privacy.php:14
+msgid "WooCommerce Stripe Order Data"
+msgstr "WooCommerce Stripe ordergegevens"
+
+#. translators: 1. URL link.
+#: woocommerce-gateway-stripe.php:43
+msgid "Stripe requires WooCommerce to be installed and active. You can download %s here."
+msgstr "Stripe vereist dat WooCommerce is geïnstalleerd en actief is. Je kan %s hier downloaden."
+
+#. translators: partial captured amount
+#: includes/class-wc-stripe-webhook-handler.php:335
+msgid "This charge was partially captured via Stripe Dashboard in the amount of: %s"
+msgstr "Deze kosten zijn gedeeltelijk vastgelegd via Stripe Dashboard voor: %s"
+
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:362
+msgid "Awaiting Multibanco payment"
+msgstr "In afwachting van betaling door Multibanco"
+
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:251
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:266
+msgid "Referencia:"
+msgstr "Referencia:"
+
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:248
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:262
+msgid "Entidade:"
+msgstr "Entidade:"
+
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:245
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:258
+msgid "Montante:"
+msgstr "Montante:"
+
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:243
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:255
+msgid "MULTIBANCO INFORMAÇÕES DE ENCOMENDA:"
+msgstr "MULTIBANCO INFORMACOES DE ENCOMENDA:"
+
+#: woocommerce-gateway-stripe.php:294
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:60
+msgid "Stripe Multibanco"
+msgstr "Stripe Multibanco"
+
+#: woocommerce-gateway-stripe.php:289
+#: includes/payment-methods/class-wc-gateway-stripe-eps.php:60
+msgid "Stripe EPS"
+msgstr "Stripe EPS"
+
+#. translators: 1) last 4 digits of SEPA Direct Debit
+#: includes/compat/class-wc-stripe-sepa-subs-compat.php:483
+msgid "Via SEPA Direct Debit ending in %1$s"
+msgstr "Via SEPA-incasso die eindigt op %1$s"
+
+#. translators: 1) dollar amount 2) transaction id 3) refund message
+#: includes/class-wc-stripe-webhook-handler.php:513
+msgid "Refunded %1$s - Refund ID: %2$s - %3$s"
+msgstr "%1$s terugbetaald - ID voor terugbetaling: %2$s - %3$s"
+
+#: includes/class-wc-gateway-stripe.php:761
+msgid "Stripe Payout:"
+msgstr "Stripe-uitbetaling:"
+
+#: includes/class-wc-gateway-stripe.php:760
+msgid "This represents the net total that will be credited to your Stripe bank account. This may be in the currency that is set in your Stripe account."
+msgstr "Dit is het nettototaal dat op je Stripe-bankrekening wordt bijgeschreven. Dit kan zijn in de valuta die is ingesteld in je Stripe-account."
+
+#: includes/class-wc-gateway-stripe.php:724
+msgid "Stripe Fee:"
+msgstr "Stripe vergoeding:"
+
+#: includes/class-wc-gateway-stripe.php:723
+msgid "This represents the fee Stripe collects for the transaction."
+msgstr "Dit vertegenwoordigt de vergoeding die Stripe in rekening brengt voor de transactie."
+
+#: includes/compat/class-wc-stripe-subs-compat.php:317
+#: includes/compat/class-wc-stripe-sepa-subs-compat.php:278
+#: includes/class-wc-stripe-order-handler.php:158
+#: includes/class-wc-gateway-stripe.php:824
+#: includes/class-wc-stripe-webhook-handler.php:233
+#: includes/payment-methods/class-wc-gateway-stripe-sepa.php:369
+msgid "Sorry, we are unable to process your payment at this time. Please retry later."
+msgstr "We kunnen je betaling momenteel niet verwerken. Probeer het later opnieuw."
+
+#. translators: 1) Opening anchor tag 2) closing anchor tag
+#: includes/class-wc-gateway-stripe.php:180
+msgid "If your billing address has been changed for saved payment methods, be sure to remove any %1$ssaved payment methods%2$s on file and re-add them."
+msgstr "Als je factuuradres is gewijzigd voor opgeslagen betalingsmethoden, moet je alle %1$sopgeslagen betalingsmethoden%2$s verwijderen en ze opnieuw toevoegen."
+
+#: includes/admin/stripe-multibanco-settings.php:35
+msgid "You will be redirected to Multibanco."
+msgstr "Je wordt doorgestuurd naar Multibanco."
+
+#: includes/admin/stripe-multibanco-settings.php:28
+msgid "Multibanco"
+msgstr "Multibanco"
+
+#: includes/admin/stripe-multibanco-settings.php:19
+msgid "Enable Stripe Multibanco"
+msgstr "Stripe Multibanco inschakelen"
+
+#: includes/admin/stripe-multibanco-settings.php:10
+msgid "Relevant Payer Geography: Portugal"
+msgstr "Geografie van relevante betaler: Portugal"
+
+#: includes/admin/stripe-eps-settings.php:35
+msgid "You will be redirected to EPS."
+msgstr "Je wordt doorgestuurd naar EPS."
+
+#: includes/admin/stripe-eps-settings.php:28
+msgid "EPS"
+msgstr "EPS"
+
+#: includes/admin/stripe-eps-settings.php:19
+msgid "Enable Stripe EPS"
+msgstr "Stripe EPS inschakelen"
+
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:39
+msgid "Save payment information to my account for future purchases."
+msgstr "Bewaar betalingsgegevens op mijn account voor toekomstige aankopen."
+
+#: includes/admin/stripe-eps-settings.php:10
+msgid "Relevant Payer Geography: Austria"
+msgstr "Geografie van relevante betaler: Oostenrijk"
+
+#. translators: 1) webhook url
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:24
+msgid "You must add the following webhook endpoint <strong style=\"background-color:#ddd;\">&nbsp;%s&nbsp;</strong> to your <a href=\"https://dashboard.stripe.com/account/webhooks\" target=\"_blank\">Stripe account settings</a>. This will enable you to receive notifications on the charge statuses."
+msgstr "Je moet het volgende webhook-eindpunt <strong style=\"background-color:#ddd;\"> &nbsp;%s&nbsp;</strong> toevoegen aan je <a href=\"https://dashboard.stripe.com/account/webhooks\" target=\"_blank\">Stripe accountinstellingen</a>. Hierdoor kan je meldingen ontvangen over de berekening statussen."
+
+#. translators: 1) The reason type.
+#: includes/class-wc-stripe-webhook-handler.php:577
+msgid "The opened review for this order is now closed. Reason: (%s)"
+msgstr "De geopende recensie voor deze bestelling is nu gesloten. Reden: (%s)"
+
+#. translators: 1) The URL to the order. 2) The reason type.
+#: includes/class-wc-stripe-webhook-handler.php:544
+msgid "A review has been opened for this order. Action is needed. Please go to your <a href=\"%1$s\" title=\"Stripe Dashboard\" target=\"_blank\">Stripe Dashboard</a> to review the issue. Reason: (%2$s)"
+msgstr "Er is een beoordeling geopend voor deze order. Er moet actie worden ondernomen. Ga naar je <a href=\"%1$s\" title=\"Stripe Dashboard\" target=\"_blank\">Stripe Dashboard</a> om het probleem te bekijken. Reden: (%2$s)"
+
+#. translators: 1) The URL to the order.
+#: includes/class-wc-stripe-webhook-handler.php:291
+msgid "A dispute was created for this order. Response is needed. Please go to your <a href=\"%s\" title=\"Stripe Dashboard\" target=\"_blank\">Stripe Dashboard</a> to review this dispute."
+msgstr "Er is een geschil gecreëerd voor deze order. Reactie is nodig. Ga naar je <a href=\"%s\" title=\"Stripe Dashboard\" target=\"_blank\">Stripe Dashboard</a> om dit geschil te beoordelen."
+
+#. translators: 1) dollar amount 2) transaction id 3) refund message
+#: includes/class-wc-stripe-webhook-handler.php:485
+#: includes/class-wc-stripe-webhook-handler.php:513
+msgid "Pre-Authorization Released via Stripe Dashboard"
+msgstr "Pre-autorisatie vrijgegeven via Stripe Dashboard"
+
+#. translators: 1) dollar amount 2) transaction id 3) refund message
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:896
+msgid "Pre-Authorization Released"
+msgstr "Pre-autorisatie vrijgegeven"
+
+#. translators: 1) link
+#: includes/admin/class-wc-stripe-admin-notices.php:188
+msgid "Stripe is in live mode however your live keys may not be valid. Live keys start with pk_live and sk_live or rk_live. Please go to your settings and, <a href=\"%s\">set your Stripe account keys</a>."
+msgstr "Stripe is in live-modus, maar je live-sleutels zijn mogelijk niet geldig. Live sleutels beginnen met pk_live en sk_live of rk_live. Ga naar je instellingen en <a href=\"%s\">stel je Stripe accountsleutels in</a>."
+
+#. translators: 1) link
+#: includes/admin/class-wc-stripe-admin-notices.php:180
+msgid "Stripe is in test mode however your test keys may not be valid. Test keys start with pk_test and sk_test or rk_test. Please go to your settings and, <a href=\"%s\">set your Stripe account keys</a>."
+msgstr "Stripe bevindt zich in de testmodus, maar je testsleutels zijn mogelijk niet geldig. Testsleutels beginnen met pk_test en sk_test of rk_test. Ga naar je instellingen en <a href=\"%s\">stel je Stripe accountsleutels in</a>."
+
+#: includes/compat/class-wc-stripe-subs-compat.php:507
+#: includes/compat/class-wc-stripe-sepa-subs-compat.php:410
+msgid "Invalid source ID. A valid source \"Stripe Source ID\" must begin with \"src_\" or \"card_\"."
+msgstr "Ongeldige bron-ID. Een geldige bron \"Stripe Source ID\" moet beginnen met \"src_\" of \"card_\"."
+
+#: includes/compat/class-wc-stripe-subs-compat.php:498
+#: includes/compat/class-wc-stripe-sepa-subs-compat.php:401
+msgid "Invalid customer ID. A valid \"Stripe Customer ID\" must begin with \"cus_\"."
+msgstr "Ongeldige klant-ID. Een geldige \"Stripe Customer ID\" moet beginnen met \"cus_\"."
+
+#: includes/compat/class-wc-stripe-subs-compat.php:495
+#: includes/compat/class-wc-stripe-sepa-subs-compat.php:398
+msgid "A \"Stripe Customer ID\" value is required."
+msgstr "Een \"Stripe Customer ID\" waarde is vereist."
+
+#: includes/class-wc-stripe-helper.php:213
+msgid "The billing country is not accepted by SOFORT. Please try another country."
+msgstr "Het factureringsland wordt niet geaccepteerd door SOFORT. Probeer een ander land."
+
+#: includes/class-wc-gateway-stripe.php:323
+msgid "Card Code (CVC)"
+msgstr "Kaartcode (CVC)"
+
+#: includes/class-wc-gateway-stripe.php:315
+msgid "Expiry Date"
+msgstr "Vervaldatum"
+
+#: includes/class-wc-gateway-stripe.php:304
+msgid "Card Number"
+msgstr "Kaartnummer"
+
+#: includes/class-wc-stripe-helper.php:208
+msgid "The card's expiration year is in the past"
+msgstr "Het vervaljaar van de kaart ligt in het verleden"
+
+#: includes/class-wc-stripe-helper.php:204
+msgid "The card's expiration date is incomplete."
+msgstr "De vervaldatum van de kaart is onvolledig."
+
+#: includes/class-wc-stripe-helper.php:203
+msgid "The card's security code is incomplete."
+msgstr "De beveiligingscode van de kaart is onvolledig."
+
+#: includes/class-wc-stripe-helper.php:202
+msgid "The card number is incomplete."
+msgstr "Het kaartnummer is onvolledig."
+
+#: includes/admin/stripe-settings.php:121
+msgid "Select the button type you would like to show."
+msgstr "Selecteer het knoptype dat je wil weergeven."
+
+#: includes/admin/class-wc-stripe-admin-notices.php:244
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Actie: mislukt. Vernieuw de pagina en probeer het opnieuw."
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:631
+msgid "OR"
+msgstr "OF"
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:315
+#: includes/payment-methods/class-wc-stripe-payment-request.php:970
+msgid "Pending"
+msgstr "In afwachting"
+
+#: woocommerce-gateway-stripe.php:287
+#: includes/payment-methods/class-wc-gateway-stripe-sofort.php:60
+msgid "Stripe SOFORT"
+msgstr "Stripe SOFORT"
+
+#: includes/payment-methods/class-wc-gateway-stripe-sepa.php:270
+msgid "TEST MODE ENABLED. In test mode, you can use IBAN number DE89370400440532013000."
+msgstr "TESTMODUS INGESCHAKELD. In testmodus kan je IBAN-nummer DE89370400440532013000 gebruiken."
+
+#. translators: statement descriptor
+#: includes/payment-methods/class-wc-gateway-stripe-sepa.php:212
+msgid "By providing your IBAN and confirming this payment, you are authorizing %s and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited."
+msgstr "Door het verstrekken van jouw IBAN nummer en het bevestigen van deze betaling, machtig je %s en Stripe, onze betaalprovider, om instructies te versturen naar jouw bank voor een machtiging van deze betaling volgens de instructies. U heeft recht op een terugbetaling van uw bank onder de algemene voorwaarden van uw bank. Een terugbetaling moet geclaimd worden binnen 8 weken vanaf de dag van betaling."
+
+#: woocommerce-gateway-stripe.php:293
+#: includes/payment-methods/class-wc-gateway-stripe-sepa.php:75
+msgid "Stripe SEPA Direct Debit"
+msgstr "Stripe SEPA-incasso"
+
+#: woocommerce-gateway-stripe.php:291
+#: includes/payment-methods/class-wc-gateway-stripe-p24.php:60
+msgid "Stripe P24"
+msgstr "Stripe P24"
+
+#: woocommerce-gateway-stripe.php:290
+#: includes/payment-methods/class-wc-gateway-stripe-ideal.php:60
+msgid "Stripe iDeal"
+msgstr "Stripe iDeal"
+
+#: woocommerce-gateway-stripe.php:288
+#: includes/payment-methods/class-wc-gateway-stripe-giropay.php:60
+msgid "Stripe Giropay"
+msgstr "Stripe Giropay"
+
+#: woocommerce-gateway-stripe.php:286
+#: includes/payment-methods/class-wc-gateway-stripe-bancontact.php:60
+msgid "Stripe Bancontact"
+msgstr "Stripe Bancontact"
+
+#: includes/payment-methods/class-wc-gateway-stripe-p24.php:181
+#: includes/payment-methods/class-wc-gateway-stripe-sofort.php:180
+#: includes/payment-methods/class-wc-gateway-stripe-giropay.php:180
+#: includes/payment-methods/class-wc-gateway-stripe-ideal.php:180
+#: includes/payment-methods/class-wc-gateway-stripe-alipay.php:187
+#: includes/payment-methods/class-wc-gateway-stripe-eps.php:180
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:184
+#: includes/payment-methods/class-wc-gateway-stripe-bancontact.php:180
+msgid "Add Payment"
+msgstr "Betaling toevoegen"
+
+#. translators: %1$s Payment method, %2$s List of supported currencies
+#: includes/admin/class-wc-stripe-admin-notices.php:230
+msgid "%1$s is enabled - it requires store currency to be set to %2$s"
+msgstr "%1$s is ingeschakeld - het vereist dat de winkelvaluta is ingesteld op %2$s"
+
+#. translators: link
+#: includes/payment-methods/class-wc-gateway-stripe-p24.php:62
+#: includes/payment-methods/class-wc-gateway-stripe-sofort.php:62
+#: includes/payment-methods/class-wc-gateway-stripe-giropay.php:62
+#: includes/payment-methods/class-wc-gateway-stripe-ideal.php:62
+#: includes/payment-methods/class-wc-gateway-stripe-alipay.php:62
+#: includes/payment-methods/class-wc-gateway-stripe-sepa.php:77
+#: includes/payment-methods/class-wc-gateway-stripe-eps.php:62
+#: includes/payment-methods/class-wc-gateway-stripe-multibanco.php:62
+#: includes/payment-methods/class-wc-gateway-stripe-bancontact.php:62
+msgid "All other general Stripe settings can be adjusted <a href=\"%s\">here</a>."
+msgstr "Alle andere algemene Stripe instellingen kunnen <a href=\"%s\">hier</a> worden aangepast."
+
+#: woocommerce-gateway-stripe.php:292
+#: includes/payment-methods/class-wc-gateway-stripe-alipay.php:60
+msgid "Stripe Alipay"
+msgstr "Stripe Alipay"
+
+#. translators: 1) card brand 2) last 4 digits
+#: includes/compat/class-wc-stripe-subs-compat.php:573
+#: includes/compat/class-wc-stripe-subs-compat.php:588
+#: includes/compat/class-wc-stripe-sepa-subs-compat.php:476
+#: includes/admin/class-wc-stripe-privacy.php:41
+msgid "N/A"
+msgstr "N.v.t."
+
+#: includes/class-wc-stripe-webhook-handler.php:485
+msgid "Refunded via Stripe Dashboard"
+msgstr "Terugbetaald via Stripe Dashboard"
+
+#: includes/class-wc-stripe-webhook-handler.php:450
+msgid "This payment has cancelled."
+msgstr "Deze betaling is geannuleerd."
+
+#: includes/class-wc-stripe-webhook-handler.php:417
+msgid "This payment failed to clear."
+msgstr "Deze betaling is niet verwerkt."
+
+#. translators: last 4 digits of IBAN account
+#: includes/class-wc-stripe-sepa-payment-token.php:41
+msgid "SEPA IBAN ending in %s"
+msgstr "SEPA IBAN eindigend op %s"
+
+#: includes/class-wc-stripe-payment-tokens.php:175
+msgid "SEPA IBAN"
+msgstr "SEPA IBAN"
+
+#. translators: error message
+#: includes/class-wc-stripe-order-handler.php:190
+msgid "Stripe payment failed: %s"
+msgstr "Stripe-betaling mislukt: %s"
+
+#: includes/class-wc-stripe-order-handler.php:96
+#: includes/class-wc-stripe-helper.php:212
+msgid "Unable to process this payment, please try again or use alternative method."
+msgstr "Kan deze betaling niet verwerken. Probeer het opnieuw of gebruik een alternatieve methode."
+
+#: includes/class-wc-stripe-customer.php:255
+msgid "Unable to add payment source."
+msgstr "Kan betalingsbron niet toevoegen."
+
+#: includes/class-wc-stripe-api.php:140 includes/class-wc-stripe-api.php:174
+msgid "There was a problem connecting to the Stripe API endpoint."
+msgstr "Er is een probleem opgetreden bij het verbinden met het Stripe API-eindpunt."
+
+#: includes/class-wc-gateway-stripe.php:440
+msgid "Please enter your IBAN account number."
+msgstr "Voer je IBAN-rekeningnummer in."
+
+#: includes/class-wc-gateway-stripe.php:439
+msgid "Please enter your IBAN account name."
+msgstr "Voer je IBAN-accountnaam in."
+
+#: includes/class-wc-gateway-stripe.php:296
+msgid "Credit or debit card"
+msgstr "Creditcard of bankpas"
+
+#: includes/admin/stripe-sofort-settings.php:39
+msgid "You will be redirected to SOFORT."
+msgstr "Je wordt doorgestuurd naar SOFORT."
+
+#: includes/admin/stripe-sofort-settings.php:32
+msgid "SOFORT"
+msgstr "SOFORT"
+
+#: includes/admin/stripe-sofort-settings.php:23
+msgid "Enable Stripe SOFORT"
+msgstr "Stripe SOFORT inschakelen"
+
+#: includes/admin/stripe-sofort-settings.php:14
+msgid "<a href=\"https://stripe.com/payments/payment-methods-guide#sofort\" target=\"_blank\">Payment Method Guide</a>"
+msgstr "<a href=\"https://stripe.com/payments/payment-methods-guide#sofort\" target=\"_blank\">Gids voor betalingsmethoden</a>"
+
+#: includes/admin/stripe-sofort-settings.php:10
+msgid "Relevant Payer Geography: Germany, Austria"
+msgstr "Geografie van relevante betaler: Duitsland, Oostenrijk"
+
+#: includes/admin/stripe-settings.php:149
+msgid "Enter the height you would like the button to be in pixels. Width will always be 100%."
+msgstr "Voer de hoogte in van de knop in pixels. Breedte is altijd 100%."
+
+#: includes/admin/stripe-settings.php:147
+msgid "Button Height"
+msgstr "Hoogte knop"
+
+#: includes/admin/stripe-settings.php:146
+msgid "Payment Request Button Height"
+msgstr "Hoogte betaalverzoekknop"
+
+#: includes/admin/stripe-settings.php:142
+msgid "Light-Outline"
+msgstr "Light-Outline"
+
+#: includes/admin/stripe-settings.php:141
+msgid "Light"
+msgstr "Licht"
+
+#: includes/admin/stripe-settings.php:140
+msgid "Dark"
+msgstr "Donker"
+
+#: includes/admin/stripe-settings.php:134
+msgid "Button Theme"
+msgstr "Knopthema"
+
+#: includes/admin/stripe-settings.php:133
+msgid "Payment Request Button Theme"
+msgstr "Thema betalingsverzoekknop"
+
+#: includes/admin/stripe-settings.php:127
+msgid "Donate"
+msgstr "Doneren"
+
+#: includes/admin/stripe-settings.php:126
+msgid "Buy"
+msgstr "Kopen"
+
+#: includes/admin/stripe-settings.php:125
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/admin/stripe-settings.php:119
+msgid "Button Type"
+msgstr "Knoptype"
+
+#: includes/admin/stripe-settings.php:118
+msgid "Payment Request Button Type"
+msgstr "Type betalingsverzoekknop"
+
+#. translators: 1) br tag 2) opening anchor tag 3) closing anchor tag
+#: includes/admin/stripe-settings.php:111
+msgid "Enable Payment Request Buttons. (Apple Pay/Chrome Payment Request API) %1$sBy using Apple Pay, you agree to %2$s and %3$s's terms of service."
+msgstr "Knoppen voor betalingsverzoeken inschakelen. (Apple Pay/Chrome Payment Request API) %1$sDoor Apple Pay te gebruiken, gaat je akkoord met de servicevoorwaarden van %2$s en %3$s."
+
+#: includes/admin/stripe-settings.php:109
+msgid "Payment Request Buttons"
+msgstr "Knoppen voor betalingsverzoeken"
+
+#: includes/admin/stripe-settings.php:89
+msgid "Choose the style you want to show for your credit card form. When unchecked, the credit card form will display separate credit card number field, expiry date field and cvc field."
+msgstr "Kies de stijl die je wil weergeven voor je creditcard formulier. Indien niet aangevinkt, zal het creditcard formulier een apart creditcard nummerveld, een vervaldatum veld en een cvc-veld weergeven."
+
+#: includes/admin/stripe-settings.php:87
+msgid "Inline Credit Card Form"
+msgstr "Inline creditcardformulier"
+
+#: includes/admin/stripe-sepa-settings.php:39
+msgid "Mandate Information."
+msgstr "Mandaat informatie."
+
+#: includes/admin/stripe-sepa-settings.php:32
+msgid "SEPA Direct Debit"
+msgstr "SEPA-incasso"
+
+#: includes/admin/stripe-sepa-settings.php:23
+msgid "Enable Stripe SEPA Direct Debit"
+msgstr "Stripe SEPA-incasso inschakelen"
+
+#: includes/admin/stripe-sepa-settings.php:14
+msgid "<a href=\"https://stripe.com/payments/payment-methods-guide#sepa-direct-debit\" target=\"_blank\">Payment Method Guide</a>"
+msgstr "<a href=\"https://stripe.com/payments/payment-methods-guide#sepa-direct-debit\" target=\"_blank\">Gids voor betalingsmethoden</a>"
+
+#: includes/admin/stripe-sepa-settings.php:10
+msgid "Relevant Payer Geography: France, Germany, Spain, Belgium, Netherlands, Luxembourg, Italy, Portugal, Austria, Ireland"
+msgstr "Geografie van relevante betaler: Frankrijk, Duitsland, Spanje, België, Nederland, Luxemburg, Italië, Portugal, Oostenrijk, Ierland"
+
+#: includes/admin/stripe-p24-settings.php:35
+msgid "You will be redirected to P24."
+msgstr "Je wordt doorgestuurd naar P24."
+
+#: includes/admin/stripe-p24-settings.php:28
+msgid "Przelewy24 (P24)"
+msgstr "Przelewy24 (P24)"
+
+#: includes/admin/stripe-p24-settings.php:19
+msgid "Enable Stripe P24"
+msgstr "Schakel Stripe P24 \"in"
+
+#: includes/admin/stripe-p24-settings.php:10
+msgid "Relevant Payer Geography: Poland"
+msgstr "Geografie van relevante betaler: Polen"
+
+#: includes/admin/stripe-ideal-settings.php:39
+msgid "You will be redirected to iDeal."
+msgstr "Je wordt doorgestuurd naar iDeal."
+
+#: includes/admin/stripe-ideal-settings.php:32
+msgid "iDeal"
+msgstr "iDeal"
+
+#: includes/admin/stripe-ideal-settings.php:23
+msgid "Enable Stripe iDeal"
+msgstr "Stripe iDeal inschakelen"
+
+#: includes/admin/stripe-ideal-settings.php:14
+msgid "<a href=\"https://stripe.com/payments/payment-methods-guide#ideal\" target=\"_blank\">Payment Method Guide</a>"
+msgstr "<a href=\"https://stripe.com/payments/payment-methods-guide#ideal\" target=\"_blank\">Gids voor betalingsmethoden</a>"
+
+#: includes/admin/stripe-ideal-settings.php:10
+msgid "Relevant Payer Geography: The Netherlands"
+msgstr "Geografie van relevante betaler: Nederland"
+
+#: includes/admin/stripe-giropay-settings.php:39
+msgid "You will be redirected to Giropay."
+msgstr "Je wordt doorgestuurd naar Giropay."
+
+#: includes/admin/stripe-giropay-settings.php:32
+msgid "Giropay"
+msgstr "Giropay"
+
+#: includes/admin/stripe-giropay-settings.php:23
+msgid "Enable Stripe Giropay"
+msgstr "Stripe Giropay inschakelen"
+
+#: includes/admin/stripe-giropay-settings.php:14
+msgid "<a href=\"https://stripe.com/payments/payment-methods-guide#giropay\" target=\"_blank\">Payment Method Guide</a>"
+msgstr "<a href=\"https://stripe.com/payments/payment-methods-guide#giropay\" target=\"_blank\">Gids voor betalingsmethoden</a>"
+
+#: includes/admin/stripe-giropay-settings.php:10
+msgid "Relevant Payer Geography: Germany"
+msgstr "Geografie van relevante betaler: Duitsland"
+
+#: includes/admin/stripe-bancontact-settings.php:39
+msgid "You will be redirected to Bancontact."
+msgstr "Je wordt doorgestuurd naar Bancontact."
+
+#: includes/admin/stripe-bancontact-settings.php:32
+msgid "Bancontact"
+msgstr "Bancontact"
+
+#: includes/admin/stripe-bancontact-settings.php:23
+msgid "Enable Stripe Bancontact"
+msgstr "Stripe Bancontact inschakelen"
+
+#: includes/admin/stripe-bancontact-settings.php:14
+msgid "<a href=\"https://stripe.com/payments/payment-methods-guide#bancontact\" target=\"_blank\">Payment Method Guide</a>"
+msgstr "<a href=\"https://stripe.com/payments/payment-methods-guide#bancontact\" target=\"_blank\">Gids voor betalingsmethoden</a>"
+
+#: includes/admin/stripe-bancontact-settings.php:10
+msgid "Relevant Payer Geography: Belgium"
+msgstr "Geografie van relevante betaler: België"
+
+#: includes/admin/stripe-sepa-settings.php:43
+#: includes/admin/stripe-p24-settings.php:39
+#: includes/admin/stripe-ideal-settings.php:43
+#: includes/admin/stripe-bancontact-settings.php:43
+#: includes/admin/stripe-alipay-settings.php:43
+#: includes/admin/stripe-multibanco-settings.php:39
+#: includes/admin/stripe-settings.php:31
+#: includes/admin/stripe-eps-settings.php:39
+#: includes/admin/stripe-giropay-settings.php:43
+#: includes/admin/stripe-sofort-settings.php:43
+msgid "Webhook Endpoints"
+msgstr "Webhook-eindpunten"
+
+#: includes/admin/stripe-alipay-settings.php:39
+msgid "You will be redirected to Alipay."
+msgstr "Je wordt doorgestuurd naar Alipay."
+
+#: includes/admin/stripe-alipay-settings.php:32
+msgid "Alipay"
+msgstr "Alipay"
+
+#: includes/admin/stripe-alipay-settings.php:23
+msgid "Enable Stripe Alipay"
+msgstr "Stripe Alipay inschakelen"
+
+#: includes/admin/stripe-sepa-settings.php:18
+#: includes/admin/stripe-p24-settings.php:14
+#: includes/admin/stripe-ideal-settings.php:18
+#: includes/admin/stripe-bancontact-settings.php:18
+#: includes/admin/stripe-alipay-settings.php:18
+#: includes/admin/stripe-multibanco-settings.php:14
+#: includes/admin/stripe-eps-settings.php:14
+#: includes/admin/stripe-giropay-settings.php:18
+#: includes/admin/stripe-sofort-settings.php:18
+msgid "Must be activated from your Stripe Dashboard Settings <a href=\"https://dashboard.stripe.com/account/payments/settings\" target=\"_blank\">here</a>"
+msgstr "Moet worden geactiveerd vanuit je Stripe Dashboard-instellingen <a href=\"https://dashboard.stripe.com/account/payments/settings\" target=\"_blank\">hier</a>"
+
+#: includes/admin/stripe-alipay-settings.php:14
+msgid "<a href=\"https://stripe.com/payments/payment-methods-guide#alipay\" target=\"_blank\">Payment Method Guide</a>"
+msgstr "<a href=\"https://stripe.com/payments/payment-methods-guide#alipay\" target=\"_blank\">Gids voor betalingsmethoden</a>"
+
+#: includes/admin/stripe-alipay-settings.php:10
+msgid "Relevant Payer Geography: China"
+msgstr "Geografie van relevante betaler: China"
+
+#: includes/compat/class-wc-stripe-sepa-subs-compat.php:179
+#: includes/class-wc-gateway-stripe.php:495
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:441
+msgid "Payment processing failed. Please retry."
+msgstr "Afrekenen mislukt. Probeer opnieuw."
+
+#. translators: transaction id
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:429
+msgid "Stripe charge awaiting payment: %s."
+msgstr "Stripe reservering in afwachting van betaling: %s."
+
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:365
+msgid "customer_name"
+msgstr "klantnaam"
+
+#. translators: 1) link to Stripe register page 2) link to Stripe api keys page
+#: includes/class-wc-gateway-stripe.php:90
+msgid "Stripe works by adding payment fields on the checkout and then sending the details to Stripe for verification. <a href=\"%1$s\" target=\"_blank\">Sign up</a> for a Stripe account, and <a href=\"%2$s\" target=\"_blank\">get your Stripe account keys</a>."
+msgstr "Stripe werkt door betalingsvelden toe te voegen aan de kassa en vervolgens de gegevens ter verificatie naar Stripe te sturen. <a href=\"%1$s\" target=\"_blank\">Meld je aan</a> voor een Stripe-account en <a href=\"%2$s\" target=\"_blank\"> haal je Stripe-accountsleutels op </a>."
+
+#. translators: 1) HTML anchor open tag 2) HTML anchor closing tag
+#: includes/class-wc-stripe-apple-pay-registration.php:270
+msgid "Apple Pay domain verification failed. Please check the %1$slog%2$s to see the issue. (Logging must be enabled to see recorded logs)"
+msgstr "Domeinverificatie van Apple Pay is mislukt. Controleer a.u.b. %1$slog%2$s om het probleem te zien. (Logging moet ingeschakeld zijn om opgenomen logs te zien)"
+
+#: includes/admin/stripe-settings.php:136
+msgid "Select the button theme you would like to show."
+msgstr "Selecteer het knop thema dat je wil weergeven."
+
+#: includes/admin/stripe-settings.php:113
+msgid "If enabled, users will be able to pay using Apple Pay or Chrome Payment Request if supported by the browser."
+msgstr "Indien ingeschakeld, kunnen gebruikers betalen met Apple Pay of Chrome Payment Request indien ondersteund door de browser."
+
+#: includes/admin/stripe-settings.php:94
+msgid "Statement Descriptor"
+msgstr "Statement Descriptor"
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:1089
+msgid "Empty cart"
+msgstr "Winkelwagen is leeg"
+
+#. translators: Do not translate the [option] placeholder
+#: includes/payment-methods/class-wc-stripe-payment-request.php:522
+msgid "Unknown shipping option \"[option]\"."
+msgstr "Onbekende verzend optie \"[option]\".\""
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:1260
+msgid "Discount"
+msgstr "Korting"
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:308
+#: includes/payment-methods/class-wc-stripe-payment-request.php:963
+#: includes/payment-methods/class-wc-stripe-payment-request.php:1253
+msgid "Shipping"
+msgstr "Verzending"
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:300
+#: includes/payment-methods/class-wc-stripe-payment-request.php:955
+#: includes/payment-methods/class-wc-stripe-payment-request.php:1246
+msgid "Tax"
+msgstr "Belasting"
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:805
+#: includes/payment-methods/class-wc-stripe-payment-request.php:818
+msgid "Unable to find shipping method for address."
+msgstr "Kan verzendmethode voor adres niet vinden."
+
+#: includes/admin/class-wc-stripe-admin-notices.php:248
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin 'hè?"
+
+#. translators: 1) dollar amount 2) transaction id 3) refund message
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:896
+msgid "Refunded %1$s - Refund ID: %2$s - Reason: %3$s"
+msgstr "%1$s terugbetaald - ID voor terugbetaling: %2$s - reden: %3$s"
+
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:366
+msgid "customer_email"
+msgstr "klanten email"
+
+#. translators: 1) blog name 2) order number
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:338
+msgid "%1$s - Order %2$s"
+msgstr "%1$s - Order %2$s"
+
+#: includes/class-wc-stripe-apple-pay-registration.php:195
+msgid "Unable to copy domain association file to domain root."
+msgstr "Kan domein koppelingsbestand niet naar domein hoofdmap kopiëren."
+
+#: includes/class-wc-stripe-apple-pay-registration.php:189
+msgid "Unable to create domain association folder to domain root."
+msgstr "Kan domein koppelingsmap niet aan domein hoofdmap maken."
+
+#. translators: error message
+#: includes/class-wc-stripe-apple-pay-registration.php:153
+#: includes/class-wc-stripe-apple-pay-registration.php:162
+msgid "Unable to verify domain - %s"
+msgstr "Kan domein - %s niet verifiëren"
+
+#: includes/class-wc-stripe-apple-pay-registration.php:129
+msgid "Unable to verify domain - missing secret key."
+msgstr "Kan domein niet verifiëren - ontbrekende geheime sleutel."
+
+#: includes/admin/class-wc-stripe-admin-notices.php:160
+msgid "WooCommerce Stripe - cURL is not installed."
+msgstr "WooCommerce Stripe - cURL is niet geïnstalleerd."
+
+#. translators: 1) int version 2) int version
+#: includes/admin/class-wc-stripe-admin-notices.php:142
+msgid "WooCommerce Stripe - The minimum PHP version required for this plugin is %1$s. You are running %2$s."
+msgstr "WooCommerce Stripe - De minimaal vereiste PHP-versie voor deze plugin is %1$s. Je gebruikt %2$s."
+
+#: includes/class-wc-stripe-helper.php:211
+msgid "An error occurred while processing the card."
+msgstr "Er is een fout opgetreden bij het verwerken van de kaart."
+
+#: includes/class-wc-stripe-helper.php:210
+msgid "There is no card on a customer that is being charged."
+msgstr "Er wordt geen kaart op een klant in rekening gebracht."
+
+#: includes/class-wc-stripe-helper.php:209
+msgid "The card was declined."
+msgstr "De kaart is geweigerd."
+
+#: includes/class-wc-stripe-helper.php:207
+msgid "The card's zip code failed validation."
+msgstr "De berichtcode van de kaart is niet gevalideerd."
+
+#: includes/class-wc-stripe-helper.php:206
+msgid "The card's security code is incorrect."
+msgstr "De beveiligingscode van de kaart is onjuist."
+
+#: includes/class-wc-stripe-helper.php:205
+msgid "The card has expired."
+msgstr "De kaart is verlopen."
+
+#: includes/class-wc-stripe-helper.php:201
+msgid "The card number is incorrect."
+msgstr "Het kaartnummer is onjuist."
+
+#: includes/class-wc-stripe-helper.php:200
+msgid "The card's security code is invalid."
+msgstr "De beveiligingscode van de kaart is ongeldig."
+
+#: includes/class-wc-stripe-helper.php:199
+msgid "The card's expiration year is invalid."
+msgstr "Het vervaljaar van de kaart is ongeldig."
+
+#: includes/class-wc-stripe-helper.php:198
+msgid "The card's expiration month is invalid."
+msgstr "De vervalmaand van de kaart is ongeldig."
+
+#: includes/class-wc-stripe-helper.php:197
+msgid "The card number is not a valid credit card number."
+msgstr "Het kaartnummer is geen geldig creditcard nummer."
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:520
+msgid "Sorry, we're not accepting prepaid cards at this time."
+msgstr "Sorry, we accepteren momenteel geen prepaid kaarten."
+
+#. translators: transaction id
+#: includes/class-wc-stripe-order-handler.php:298
+#: includes/class-wc-stripe-webhook-handler.php:340
+#: includes/class-wc-stripe-webhook-handler.php:390
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:436
+msgid "Stripe charge complete (Charge ID: %s)"
+msgstr "Stripe-kosten voltooid (kosten-id: %s)"
+
+#. translators: error message
+#: includes/class-wc-stripe-order-handler.php:241
+#: includes/class-wc-stripe-order-handler.php:256
+#: includes/class-wc-stripe-order-handler.php:272
+#: includes/class-wc-stripe-order-handler.php:287
+msgid "Unable to capture charge! %s"
+msgstr "Kan de kosten niet registreren! %s"
+
+#: woocommerce-gateway-stripe.php:233
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: woocommerce-gateway-stripe.php:232
+msgid "Docs"
+msgstr "Documentatie"
+
+#: woocommerce-gateway-stripe.php:216
+msgid "Settings"
+msgstr "Instellingen"
+
+#. translators: 1) link
+#: includes/admin/class-wc-stripe-admin-notices.php:170
+msgid "Stripe is almost ready. To get started, <a href=\"%s\">set your Stripe account keys</a>."
+msgstr "Stripe is bijna klaar. Als je aan de slag wilt, moet je je <a href=\"%s\">Stripe-accountcodes instellen</a>."
+
+#: includes/admin/stripe-settings.php:185
+msgid "Save debug messages to the WooCommerce System Status log."
+msgstr "Sla foutopsporingsberichten op naar het statuslogboek van het WooCommerce-systeem."
+
+#: includes/admin/stripe-settings.php:183
+msgid "Log debug messages"
+msgstr "Logboekregistratie van foutopsporingsberichten"
+
+#: includes/admin/stripe-settings.php:182
+msgid "Logging"
+msgstr "Logboekregistratie"
+
+#: includes/admin/stripe-settings.php:177
+msgid "If enabled, users will be able to pay with a saved card during checkout. Card details are saved on Stripe servers, not on your store."
+msgstr "Als dit is ingeschakeld, kunnen gebruikers afrekenen met een opgeslagen kaart. Kaartgegevens worden opgeslagen op Stripe-servers, niet in je winkel."
+
+#: includes/admin/stripe-settings.php:175
+msgid "Enable Payment via Saved Cards"
+msgstr "Betaling via Opgeslagen kaarten inschakelen"
+
+#: includes/admin/stripe-settings.php:174
+msgid "Saved Cards"
+msgstr "Opgeslagen kaarten"
+
+#: includes/admin/stripe-settings.php:104
+msgid "Whether or not to immediately capture the charge. When unchecked, the charge issues an authorization and will need to be captured later. Uncaptured charges expire in 7 days."
+msgstr "Of je de kosten wel of niet onmiddellijk registreert. Wanneer dit niet is ingeschakeld, wordt er een kostenautorisatie verstrekt en moeten de kosten later worden geregistreerd. Niet-geregistreerde kosten verlopen na 7 dagen."
+
+#: includes/admin/stripe-settings.php:102
+msgid "Capture charge immediately"
+msgstr "Kosten onmiddellijk registreren"
+
+#: includes/admin/stripe-settings.php:101
+msgid "Capture"
+msgstr "Opslaan"
+
+#: includes/admin/stripe-settings.php:45
+msgid "Test Publishable Key"
+msgstr "Publiceerbare code voor testen"
+
+#: includes/admin/stripe-settings.php:52
+msgid "Test Secret Key"
+msgstr "Geheime code voor testen"
+
+#: includes/admin/stripe-settings.php:66
+msgid "Live Publishable Key"
+msgstr "Publiceerbare code voor live-gebruik"
+
+#: includes/admin/stripe-settings.php:73
+msgid "Live Secret Key"
+msgstr "Geheime code voor live-gebruik"
+
+#: includes/admin/stripe-settings.php:40
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr "Plaats de betalingsgateway in de testmodus met behulp van API-codes voor testen."
+
+#: includes/admin/stripe-settings.php:38
+msgid "Enable Test Mode"
+msgstr "Testmodus inschakelen"
+
+#: includes/admin/stripe-settings.php:37
+msgid "Test mode"
+msgstr "Testmodus"
+
+#: includes/admin/stripe-settings.php:27
+msgid "Pay with your credit card via Stripe."
+msgstr "Betalen met je creditcard via Stripe."
+
+#: includes/admin/stripe-sepa-settings.php:38
+#: includes/admin/stripe-p24-settings.php:34
+#: includes/admin/stripe-ideal-settings.php:38
+#: includes/admin/stripe-bancontact-settings.php:38
+#: includes/admin/stripe-alipay-settings.php:38
+#: includes/admin/stripe-multibanco-settings.php:34
+#: includes/admin/stripe-settings.php:26
+#: includes/admin/stripe-eps-settings.php:34
+#: includes/admin/stripe-giropay-settings.php:38
+#: includes/admin/stripe-sofort-settings.php:38
+msgid "This controls the description which the user sees during checkout."
+msgstr "Dit bepaalt de beschrijving die de gebruiker ziet bij het afrekenen."
+
+#: includes/admin/stripe-sepa-settings.php:36
+#: includes/admin/stripe-p24-settings.php:32
+#: includes/admin/stripe-ideal-settings.php:36
+#: includes/admin/stripe-bancontact-settings.php:36
+#: includes/admin/stripe-alipay-settings.php:36
+#: includes/admin/stripe-multibanco-settings.php:32
+#: includes/admin/stripe-settings.php:24
+#: includes/admin/stripe-eps-settings.php:32
+#: includes/admin/stripe-giropay-settings.php:36
+#: includes/admin/stripe-sofort-settings.php:36
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/admin/stripe-settings.php:20
+msgid "Credit Card (Stripe)"
+msgstr "Creditcard (Stripe)"
+
+#: includes/admin/stripe-sepa-settings.php:31
+#: includes/admin/stripe-p24-settings.php:27
+#: includes/admin/stripe-ideal-settings.php:31
+#: includes/admin/stripe-bancontact-settings.php:31
+#: includes/admin/stripe-alipay-settings.php:31
+#: includes/admin/stripe-multibanco-settings.php:27
+#: includes/admin/stripe-settings.php:19
+#: includes/admin/stripe-eps-settings.php:27
+#: includes/admin/stripe-giropay-settings.php:31
+#: includes/admin/stripe-sofort-settings.php:31
+msgid "This controls the title which the user sees during checkout."
+msgstr "Dit bepaalt de titel die de gebruiker ziet tijdens het afrekenen."
+
+#: includes/admin/stripe-sepa-settings.php:29
+#: includes/admin/stripe-p24-settings.php:25
+#: includes/admin/stripe-ideal-settings.php:29
+#: includes/admin/stripe-bancontact-settings.php:29
+#: includes/admin/stripe-alipay-settings.php:29
+#: includes/admin/stripe-multibanco-settings.php:25
+#: includes/admin/stripe-settings.php:17
+#: includes/admin/stripe-eps-settings.php:25
+#: includes/admin/stripe-giropay-settings.php:29
+#: includes/admin/stripe-sofort-settings.php:29
+msgid "Title"
+msgstr "Titel"
+
+#: includes/admin/stripe-settings.php:11
+msgid "Enable Stripe"
+msgstr "Stripe inschakelen"
+
+#: includes/admin/stripe-sepa-settings.php:22
+#: includes/admin/stripe-p24-settings.php:18
+#: includes/admin/stripe-ideal-settings.php:22
+#: includes/admin/stripe-bancontact-settings.php:22
+#: includes/admin/stripe-alipay-settings.php:22
+#: includes/admin/stripe-multibanco-settings.php:18
+#: includes/admin/stripe-settings.php:10
+#: includes/admin/stripe-eps-settings.php:18
+#: includes/admin/stripe-giropay-settings.php:22
+#: includes/admin/stripe-sofort-settings.php:22
+msgid "Enable/Disable"
+msgstr "Inschakelen/uitschakelen"
+
+#. translators: transaction id
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:453
+msgid "Stripe charge authorized (Charge ID: %s). Process order to take payment, or cancel to remove the pre-authorization."
+msgstr "Stripe-kosten geautoriseerd (kosten-id: %s). Verwerk de bestelling om de betaling te accepteren of annuleer deze om de voorautorisatie te verwijderen."
+
+#: includes/class-wc-stripe-order-handler.php:140
+#: includes/class-wc-stripe-webhook-handler.php:214
+#: includes/payment-methods/class-wc-gateway-stripe-sepa.php:349
+msgid "This card is no longer available and has been removed."
+msgstr "Deze kaart is niet langer beschikbaar en is verwijderd."
+
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:631
+msgid "Invalid payment method. Please input a new card number."
+msgstr "Ongeldige betalingsmethode. Voer een nieuw kaartnummer in."
+
+#: includes/class-wc-gateway-stripe.php:409
+msgid "Please fill in required checkout fields first"
+msgstr "Vul eerst de vereiste betalingsvelden in"
+
+#: includes/class-wc-gateway-stripe.php:408
+msgid "Please accept the terms and conditions first"
+msgstr "Je moet eerst de voorwaarden en bepalingen accepteren"
+
+#. translators: link to Stripe testing page
+#: includes/class-wc-gateway-stripe.php:257
+msgid "TEST MODE ENABLED. In test mode, you can use the card number 4242424242424242 with any CVC and a valid expiration date or check the <a href=\"%s\" target=\"_blank\">Testing Stripe documentation</a> for more card numbers."
+msgstr "DE TESTMODUS IS INGESCHAKELD. In de testmodus kun je het kaartnummer 4242424242424242 gebruiken met elke CVC code en een geldige vervaldatum. Controleer de documentatie <a href=\"%s\" target=\"_blank\">Stripe testen</a> voor meer kaartnummers."
+
+#: includes/class-wc-gateway-stripe.php:88
+#: includes/admin/class-wc-stripe-privacy.php:12
+msgid "Stripe"
+msgstr "Stripe"
+
+#. translators: 1) card brand 2) last 4 digits
+#: includes/compat/class-wc-stripe-subs-compat.php:588
+msgid "Via %1$s card ending in %2$s"
+msgstr "Via een %1$s-kaart eindigend op %2$s"
+
+#. translators: error message
+#: includes/compat/class-wc-stripe-pre-orders-compat.php:131
+msgid "Stripe Transaction Failed (%s)"
+msgstr "Stripe-transactie is mislukt (%s)"
+
+#: includes/compat/class-wc-stripe-pre-orders-compat.php:51
+msgid "Unable to store payment details. Please try again."
+msgstr "Kan betalingsgegevens niet opslaan. Probeer het opnieuw."
+
+#: includes/compat/class-wc-stripe-subs-compat.php:277
+#: includes/compat/class-wc-stripe-sepa-subs-compat.php:240
+msgid "Customer not found"
+msgstr "Klant niet gevonden"
+
+#. translators: minimum amount
+#. translators: 1) dollar amount
+#: includes/compat/class-wc-stripe-subs-compat.php:224
+#: includes/compat/class-wc-stripe-sepa-subs-compat.php:222
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:246
+msgid "Sorry, the minimum allowed order total is %1$s to use this payment method."
+msgstr "Sorry, het minimum besteltotaal voor deze betaalmethode is %1$s."
